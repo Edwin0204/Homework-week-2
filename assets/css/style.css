@@ -204,3 +204,27 @@ a {
    color: #92CCCD ;
 
 }
+
+.Resume {
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.Resume h2 {
+    display: flex;
+    font-size: x-large;
+    color: #445876;  
+    width: 20%;
+    border-right: solid var(--bg);
+    justify-content: flex-end;
+    padding-right: 2%;
+
+}
+
+.Resume div {
+    display: flex;
+    font-size: large;
+    padding: 30px;
+}

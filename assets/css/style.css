@@ -70,7 +70,7 @@ a {
     flex-direction: row;
 }
 
-.section h2 {
+.section  h2 {
     display: flex;
     font-size: x-large;
     color: #445876;  
@@ -79,6 +79,12 @@ a {
     justify-content: flex-end;
     padding-right: 2%;
 
+}
+
+.MyPhoto {
+    max-width: 150px;
+    max-height: 150px;
+    padding: 20px;
 }
 
 .section div {

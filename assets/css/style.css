@@ -1,0 +1,199 @@
+* {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+    --stripe: #769DB7;
+    --bg: #1D3D60;
+
+}
+
+body {
+    background-color: #EDEEF6;
+}
+
+.header {
+    padding: 20px;
+    background-color: #31343D;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+    color: #31343D;
+    background-color: #92CCCD;    
+}
+
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    font-size: 20px
+}
+
+.header div ul {
+    list-style-type: none;
+}
+
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: #92CCCD;
+    text-decoration-line: underline;
+}
+
+.subtitle {
+   
+
+  background: linear-gradient(135deg, var(--bg) 25%, transparent 25%) -50px 0,
+    linear-gradient(225deg, var(--bg) 25%, transparent 25%) -50px 0,
+    linear-gradient(315deg, var(--bg) 25%, transparent 25%),
+    linear-gradient(45deg, var(--bg) 25%, transparent 25%);
+  background-size: 100px 100px;
+  background-color: var(--stripe);
+    height: 50px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+.section {
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.section h2 {
+    display: flex;
+    font-size: x-large;
+    color: #445876;  
+    width: 20%;
+    border-right: solid var(--bg);
+    justify-content: flex-end;
+    padding-right: 2%;
+
+}
+
+.section div {
+    font-size: small;
+    padding: 10px;
+    margin-bottom: 2%;
+    width: 68%;
+    
+}
+
+.section div h3{
+    padding: 3px;
+    justify-content: flex-start;
+}
+
+.section div p{
+    padding: 3px;
+}
+
+.section div li{
+    padding-left: 10px;
+}
+
+.Work {
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.Work h2 {
+    display: flex;
+    font-size: x-large;
+    color: #445876;  
+    width: 20%;
+    border-right: solid var(--bg);
+    justify-content: flex-end;
+    padding-right: 2%;
+
+}
+
+.Work div {
+    display: flex;
+    font-size: small;
+    padding: 10px;
+    margin-bottom: 2%;
+    width: 68%;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.Work div div{
+    flex-direction: column;
+    flex-basis: calc(30%-1em);
+}
+
+.Work div img {
+    display: flex;
+    min-height: 150px;
+    max-height: 150px;
+ 
+   }
+
+
+   .project {
+   margin: 1rem;
+   flex-basis: 25%;
+   position: relative;
+  }
+ 
+  .Horiseon{
+      display: flex;
+      max-width: 150px;
+  }
+
+  .projectName {
+      position: absolute;
+      top: 50%;
+  }
+
+  .projectName p {
+    padding-left: 1rem;
+    background-color: #92CCCD;
+    color: #202829;
+    font-size: x-small;
+}
+
+.project.first {
+    flex: 3 1 200px;
+}
+
+.ContactMe {
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.ContactMe h2 {
+    display: flex;
+    font-size: x-large;
+    color: #445876;  
+    width: 20%;
+    border-right: solid var(--bg);
+    justify-content: flex-end;
+    padding-right: 2%;
+
+}
+
+.ContactMe div {
+    display: flex;
+    font-size: small;
+    padding: 10px;
+    margin-bottom: 2%;
+    width: 68%;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
